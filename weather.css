@@ -1,4 +1,23 @@
+html {
+    overflow: hidden; 
+}
+
 #main {
     height: 50vw; 
-    border: 2px solid red; 
+    border: 5px solid lightblue; 
+    display: flex;
+}
+.day {
+    flex-direction: row;
+    border: 5px solid lightblue; 
+    margin: 2rem; 
+    height: auto; 
+    width: 100%;
+
+}
+.temp {
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem;
+    border: 2px solid lightblue; 
 }
