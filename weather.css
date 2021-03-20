@@ -11,13 +11,23 @@ html {
     flex-direction: row;
     border: 5px solid lightblue; 
     margin: 2rem; 
-    height: auto; 
+    margin-top: 10%;
+    height: 50%; 
     width: 100%;
 
 }
+header {
+    text-align: center;
+    padding: 15%; 
+    font-family: cursive;
+}
 .temp {
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     margin: 2rem;
-    border: 2px solid lightblue; 
+    border: 5px solid lightblue; 
+    height: 45%; 
+    width: 45%;
+    
 }
