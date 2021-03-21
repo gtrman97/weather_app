@@ -1,15 +1,33 @@
 html {
     overflow: hidden; 
 }
+#head {
+    display: flex;
+}
+#current-day {
+    border: 5px solid lightblue; 
+    border-radius: 15px;
+    justify-content: flex-end;
+    height: 20vw; 
+    width: 50%; 
+    margin: 2rem;  
+    text-align: center;
 
+
+}
 #main {
     height: 50vw; 
     border: 5px solid lightblue; 
     display: flex;
 }
+h1 {
+    float: right;
+}
 .day {
     flex-direction: row;
     border: 5px solid lightblue; 
+    background-color: lightblue;
+    border-radius: 15px;
     margin: 1rem; 
     margin-top: 10%;
     height: 55%; 
@@ -28,6 +46,8 @@ header {
     margin: 1rem; 
     padding: 10%; 
     border: 5px solid lightblue; 
+    background-color: white;
+    border-radius: 15px;
     height: 45%; 
     width: 55%;
     
