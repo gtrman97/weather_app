@@ -1,23 +1,21 @@
 html {
     overflow: hidden; 
-}
-#head {
-    display: flex;
+    margin: 0; 
 }
 #current-day {
     border: 5px solid lightblue; 
     border-radius: 15px;
-    justify-content: flex-end;
     height: 20vw; 
     width: 50%; 
-    margin: 2rem;  
+    margin: 2rem;
+    margin-left: auto; 
     text-align: center;
 
 
 }
 #main {
     height: 50vw; 
-    border: 5px solid lightblue; 
+    //border: 5px solid lightblue; 
     display: flex;
 }
 h1 {
