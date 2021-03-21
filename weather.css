@@ -1,9 +1,10 @@
 body {
-    background-image: linear-gradient(to right, blue, yellow);
+    background-image: linear-gradient(90deg, skyblue, gold);
 }
-#current-day {
+#current-weather {
     border: 5px solid lightblue; 
     border-radius: 15px;
+    background: lightblue;
     height: 20vw; 
     width: 50%; 
     margin: 2rem;
@@ -11,6 +12,10 @@ body {
     text-align: center;
 
 
+}
+#today {
+    font-family: cursive;
+    font-size: 200%;
 }
 #main {
     height: 50vw; 
@@ -29,7 +34,7 @@ h1 {
     width: 100%;
 
 }
-header {
+.weekday {
     text-align: center;
     padding: 15%; 
     font-family: cursive;
@@ -49,4 +54,11 @@ header {
     height: 45%; 
     width: 55%;
     
+}
+footer {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 200%;
+    padding-bottom: 7%;
+    margin: auto;
 }
