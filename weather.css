@@ -24,15 +24,24 @@ body {
     border-radius: 15px;
     background: lightblue;
     height: 20vw; 
-    width: 45%; 
+    width: 100%; 
     margin: 2rem;
-    margin-left: auto; 
     text-align: center;
+}
+#link {
+    width: 100%; 
+    border: 5px solid lightblue; 
+    margin: 2rem;
+    height: 5vw;
 
 
 }
+#info {
+    width: 45%; 
+}
 #head {
     display: flex; 
+
 
 }
 #today {
