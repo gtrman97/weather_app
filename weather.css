@@ -76,9 +76,6 @@ h1 {
     font-size: 200%;
 }
 .temp {
-    /* flex-direction: row;
-    justify-content: center;
-    align-items: center; */
     text-align: center;
     font-size: 500%;
     margin: 1rem; 
