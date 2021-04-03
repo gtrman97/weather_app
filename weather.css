@@ -57,8 +57,6 @@ body {
 }
 #head {
     display: flex; 
-
-
 }
 #today {
     font-family: cursive;
@@ -79,7 +77,6 @@ h1 {
     margin-top: 3%;
     height: 55%; 
     width: 100%;
-
 }
 .weekday {
     text-align: center;
@@ -96,6 +93,5 @@ h1 {
     background-color: white;
     border-radius: 15px;
     height: 45%; 
-    width: 55%;
-    
+    width: 55%;   
 }
