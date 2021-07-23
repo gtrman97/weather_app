@@ -27,8 +27,8 @@ body {
     border: 5px solid lightblue; 
     border-radius: 15px;
     background: lightblue;
-    max-height: 10vh; 
-    max-width: 45%; 
+    min-height: 50%; 
+    min-width: 45%; 
     margin: 1rem;
     text-align: center;
 }
@@ -37,11 +37,11 @@ body {
     border-radius: 15px;
     background-color: white;
     max-height: 10vh;  
-    width: 100%;
+    min-width: 50%;
     margin: 1rem; 
 }
 #weather {
-    font-size: 400%;
+    font-size: 100%;
 }
 #link {
     width: 95%; 
