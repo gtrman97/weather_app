@@ -98,8 +98,8 @@ body {
     font-family: cursive;
     font-size: 200%;
     max-height: 5%;
-    min-width: 10%;
-    border: solid 2px black;
+    max-width: 35%;
+    /* border: solid 2px black; */
     margin: 0.25rem;
 }
 .temp {
