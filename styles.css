@@ -8,6 +8,7 @@ html {
 }
 body {
     background-image: linear-gradient(to left, skyblue, gold);
+    background: repeat;
 }
 #current-location {
     /* border: 5px solid red;  */
@@ -116,5 +117,4 @@ body {
 
 }
 @media only screen and (min-width: 1024px) {
-    
 }
