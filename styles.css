@@ -1,7 +1,5 @@
 html {
     overflow-x: hidden;
-    background: repeat;
-
 }
 #head {
     overflow: hidden;
@@ -10,6 +8,7 @@ html {
 }
 body {
     background-image: linear-gradient(to left, skyblue, gold);
+    background-repeat: repeat-y;
 }
 #current-location {
     /* border: 5px solid red;  */
