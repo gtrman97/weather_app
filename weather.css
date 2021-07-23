@@ -13,11 +13,10 @@ body {
 #current-location {
     border: 5px solid red; 
     border-radius: 15px;
-    max-height: 10vh; 
+    min-height: 25%; 
     min-width: 45%; 
     margin: 1rem;
     background-image: linear-gradient(to bottom, red, gold);
-    padding-top: 200px;
 }
 #city, #country {
     border: solid 2px black;
@@ -63,6 +62,7 @@ body {
     border: solid 2px green;
     /* overflow: hidden; */
     display: flex;
+    align-items: stretch;
 }
 #info {
     max-width: 50%; 
