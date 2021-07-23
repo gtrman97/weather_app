@@ -17,11 +17,14 @@ body {
     min-width: 45%; 
     margin: 1rem;
     background-image: linear-gradient(to bottom, red, gold);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-#city, #country {
+#city {
     border: solid 2px black;
     text-align: center;
-    font-size: 200%;
+    font-size: 165%;
     text-shadow: 2px 2px white;
     margin: auto;
     min-width: 25%;
