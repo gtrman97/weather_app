@@ -27,19 +27,18 @@ body {
     border: 5px solid lightblue; 
     border-radius: 15px;
     background: lightblue;
-    height: 20vw; 
-    width: 100%; 
-    margin: 2rem;
+    max-height: 10vh; 
+    max-width: 45%; 
+    margin: 1rem;
     text-align: center;
 }
 #current-temp {
     border: 2px solid white; 
     border-radius: 15px;
     background-color: white;
-    height: 25vh;  
-    width: 75%;
-    margin: auto; 
-    padding: 0; 
+    max-height: 10vh;  
+    width: 100%;
+    margin: 1rem; 
 }
 #weather {
     font-size: 400%;
@@ -54,7 +53,9 @@ body {
     padding: 7%;
 }
 #info {
-    width: 45%; 
+    max-width: 45%; 
+    border: solid 2px green;
+    overflow: hidden;
 }
 #head {
     display: flex; 
