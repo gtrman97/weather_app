@@ -13,7 +13,7 @@ body {
 #current-location {
     /* border: 5px solid red;  */
     border-radius: 15px;
-    box-shadow: 5px 10px white;
+    box-shadow: 5px 10px orangered;
     min-height: 25%; 
     min-width: 45%; 
     margin: 1rem;
@@ -37,7 +37,7 @@ body {
 #current-weather {
     border: 5px solid lightblue; 
     border-radius: 15px;
-    box-shadow: 5px 10px blue;
+    box-shadow: 5px 10px aquamarine;
     background: lightblue;
     min-height: 45%; 
     min-width: 45%; 
@@ -86,7 +86,7 @@ body {
     display: flex; 
 }
 #today {
-    font-family: arial;
+    font-family: cursive;
     font-size: 200%;
     position: relative;
     animation-name: moveRight;
@@ -102,7 +102,7 @@ body {
     border: 5px solid lightblue; 
     background-color: lightblue;
     border-radius: 15px;
-    box-shadow: 5px 10px blue;
+    box-shadow: 5px 10px deepskyblue;
     max-height: 1%; 
     min-width: 90%;
     margin: 0.5rem;
