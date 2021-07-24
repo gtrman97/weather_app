@@ -129,6 +129,18 @@ body {
     max-height: 5%; 
     min-width: 18%;   
     /* border: solid 2px black; */
+}
+.day1, .day3, .day5 {
+
+    position: relative;
+    animation-name: moveRight;
+    animation-duration: 3s;
+}
+.day2, .day4, .day6 {
+    
+    position: relative;
+    animation-name: moveLeft;
+    animation-duration: 3s;
 
 }
 @media only screen and (min-width: 1024px) {
