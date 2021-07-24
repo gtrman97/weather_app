@@ -143,6 +143,13 @@ body {
     animation-duration: 3s;
 
 }
+.weekday1, .temp1, .weekday3, .temp3, .weekday5, .temp5 {
+    
+    position: relative;
+    /* animation-name: moveLeft;
+    animation-duration: 3s; */
+    
+}
 @media only screen and (min-width: 1024px) {
 }
 @keyframes moveUp {
