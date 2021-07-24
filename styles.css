@@ -20,6 +20,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    animation-name: moveUp; 
+    animation-duration: 3s;
 }
 #city {
     text-align: center;
@@ -46,6 +49,7 @@ body {
     max-height: 10vh;  
     min-width: 50%;
     margin: 0.5rem; 
+    position: relative;
 }
 #weather {
     font-size: 100%;
@@ -117,4 +121,12 @@ body {
 
 }
 @media only screen and (min-width: 1024px) {
+}
+@keyframes moveUp {
+    0% {
+        top: 500px; 
+    }
+    100% {
+        top: 0px; 
+    }
 }
