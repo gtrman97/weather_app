@@ -86,7 +86,7 @@ body {
     display: flex; 
 }
 #today {
-    font-family: cursive;
+    font-family: arial;
     font-size: 200%;
     position: relative;
     animation-name: moveRight;
