@@ -22,7 +22,7 @@ body {
     align-items: center;
     position: relative;
     animation-name: moveUp; 
-    animation-duration: 3s;
+    animation-duration: 3.5s;
 }
 #city {
     text-align: center;
@@ -43,7 +43,7 @@ body {
     text-align: center;
     position: relative;
     animation-name: moveDown;
-    animation-duration: 3s;
+    animation-duration: 3.5s;
 }
 #current-temp {
     border: 2px solid white; 
@@ -54,7 +54,7 @@ body {
     margin: 0.5rem; 
     position: relative;
     animation-name: moveLeft;
-    animation-duration: 3s;
+    animation-duration: 3.5s;
 }
 #weather {
     font-size: 100%;
@@ -69,7 +69,7 @@ body {
     /* padding: 7%; */
     position: relative;
     animation-name: moveDown;
-    animation-duration: 3s;
+    animation-duration: 3.5s;
 }
 #location {
     max-width: 50%; 
@@ -88,7 +88,7 @@ body {
     font-size: 200%;
     position: relative;
     animation-name: moveRight;
-    animation-duration: 3s;
+    animation-duration: 3.5s;
 }
 #main {
     min-height: 50%; 
@@ -134,13 +134,13 @@ body {
 
     position: relative;
     animation-name: moveRight;
-    animation-duration: 3s;
+    animation-duration: 3.5s;
 }
 .day2, .day4, .day6 {
     
     position: relative;
     animation-name: moveLeft;
-    animation-duration: 3s;
+    animation-duration: 3.5s;
 
 }
 .weekday1, .temp1, .weekday3, .temp3, .weekday5, .temp5 {
