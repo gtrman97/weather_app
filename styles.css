@@ -8,6 +8,7 @@ html {
 }
 body {
     background-image: linear-gradient(to left, skyblue, gold);
+    /* background-image: weather-animations/clear.gif; */
     background-repeat: repeat-y;
 }
 #current-location {
@@ -88,6 +89,7 @@ body {
 #today {
     font-family: cursive;
     font-size: 200%;
+    text-shadow: 1px 1px white;
     position: relative;
     animation-name: moveRight;
     animation-duration: 3.5s;
@@ -116,6 +118,7 @@ body {
     padding: 10%; 
     font-family: cursive;
     font-size: 200%;
+    text-shadow: 1px 1px white;
     max-height: 5%;
     max-width: 35%;
     /* border: solid 2px black; */
