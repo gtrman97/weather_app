@@ -157,6 +157,32 @@ body {
     
 }
 @media only screen and (min-width: 1024px) {
+    #location {
+        min-width: 50%;
+        border: solid 2px black;
+        /* margin: 0; */
+        justify-content: flex-start;
+
+    }
+    #current-location {
+        min-height: 75vh;
+        min-width: 98%;
+    }
+    .day {
+        max-height: 5%;
+        max-width: 5%;
+    }
+    .weekday {
+        max-height: 1%;
+        max-width: 5%;
+
+    }
+    .temp {
+        max-height: 1%;
+        max-width: 5%;
+
+    }
+    
 }
 @keyframes moveUp {
     0% {
