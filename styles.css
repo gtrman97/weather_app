@@ -7,9 +7,9 @@ html {
     justify-content: space-evenly;
 }
 body {
-    background-image: linear-gradient(to left, skyblue, gold);
-    /* background-image: weather-animations/clear.gif; */
-    background-repeat: repeat-y;
+    /* background-image: linear-gradient(to left, skyblue, gold); */
+    background-image: url("sunny.jpg"); 
+    background-size: contain;
 }
 #current-location {
     /* border: 5px solid red;  */
