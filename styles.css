@@ -99,6 +99,7 @@ body {
     min-width: 95%; 
     display: flex;
     flex-direction: column;
+    /* border: solid 2px black; */
 }
 .day {
     border: 5px solid lightblue; 
@@ -159,14 +160,26 @@ body {
 @media only screen and (min-width: 1024px) {
     #location {
         min-width: 50%;
-        border: solid 2px black;
-        /* margin: 0; */
         justify-content: flex-start;
 
     }
     #current-location {
         min-height: 75vh;
         min-width: 98%;
+    }
+    #city {
+        font-size: 300%;
+    }
+    #info {
+        min-width: 50%;
+    }
+    #current-weather {
+        min-height: 50%;
+    }
+    #link {
+        font-size: 350%;
+        min-height: 50%;
+        padding: 5%;
     }
     .day {
         max-height: 5%;
