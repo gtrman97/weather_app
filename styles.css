@@ -4,7 +4,7 @@ html {
 #head {
     overflow: hidden;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 body {
     /* background-image: linear-gradient(to left, skyblue, gold); */
