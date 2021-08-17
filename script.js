@@ -9,5 +9,15 @@ let file = queryUrl + lat + lon + apiOptions + apiKey;
 fetch(file)
 .then((response) => response.json()) 
 .then((data) => {
-    console.log(data); 
+
+    // Weather main data
+    let main = data.current.weather[0].main; 
+    let description = data.current.weather[0].description;
+    let temp = data.current.temp;
+    let pressure = data.current.pressure;
+    let humidity = data.current.humidity; 
+
+
+     console.log(humidity); 
+
 })
