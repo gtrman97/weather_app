@@ -5,3 +5,9 @@ let lon = "lon=-97.733330&";
 let apiOptions = "exclude=minutely,alerts&";
 let apiKey = "appid=dc2c6c767a3bc108510c5151248c8456"; 
 let file = queryUrl + lat + lon + apiOptions + apiKey;
+
+fetch(file)
+.then((response) => response.json()) 
+.then((data) => {
+    console.log(data); 
+})
