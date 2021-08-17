@@ -13,11 +13,30 @@ fetch(file)
     // Weather main data
     let main = data.current.weather[0].main; 
     let description = data.current.weather[0].description;
-    let temp = data.current.temp;
+    let temp = Math.round(data.current.temp);
     let pressure = data.current.pressure;
     let humidity = data.current.humidity; 
 
+    // Weather hourly data 
+    let hourNow = data.hourly[0].temp;
+    let hour1 = data.hourly[1].tmep; 
+    let hour2 = data.hourly[2].tmep; 
+    let hour3 = data.hourly[3].tmep; 
+    let hour4 = data.hourly[4].tmep; 
+    let hour5 = data.hourly[5].tmep; 
 
-     console.log(humidity); 
+    // Weather daily data
+    let tomorrowTemp = Math.round(data.daily[0].temp.day);
+    let dayAfterTomorrow = Math.round(data.daily[1].temp.day)
+    let tomorrowMain = data.daily[0].weather[0].main; 
+    let dayAfterTomorrowMain = data.daily[1].weather[0].main; 
+
+
+
+
+
+
+     console.log(temp); 
+
 
 })
