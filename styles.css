@@ -52,17 +52,26 @@ body {
     border: 2px solid white; 
     border-radius: 15px;
     background-color: white;
-    max-height: 10vh;  
+    min-height: 7.5vh;  
     min-width: 50%;
     margin: 0.5rem; 
     position: relative;
     animation-name: moveLeft;
     animation-duration: 3.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #weather {
     font-size: 100%;
+    font-size: x-large;
     position: relative;
     display: inline;
+    padding: 2.5%;
+}
+span {
+    font-size: 100%;
+    font-size: x-large;
 }
 #link {
     min-width: 45%; 
@@ -90,7 +99,7 @@ body {
 }
 #today {
     font-family: cursive;
-    font-size: 200%;
+    font-size: 175%;
     text-shadow: 1px 1px white;
     position: relative;
     animation-name: moveRight;
