@@ -68,10 +68,6 @@ body {
     position: relative;
     padding: 2.5%;
 }
-span {
-    font-size: 100%;
-    font-size: x-large;
-}
 #link {
     min-width: 45%; 
     margin: 1rem;

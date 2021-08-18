@@ -20,7 +20,7 @@ fetch(file)
 
     document.getElementById('today').innerHTML = description;
     console.log(data);
-    document.getElementById('weather').innerHTML = temp;
+    document.getElementById('weather').innerHTML = temp + '°F';
 
 
     // Weather hourly data 
