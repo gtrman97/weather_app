@@ -62,8 +62,6 @@ body {
 #weather {
     font-size: 100%;
     position: relative;
-}
-span {
     display: inline;
 }
 #link {
