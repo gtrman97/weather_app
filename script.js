@@ -13,6 +13,7 @@ fetch(file)
     // Weather main data
     let main = data.current.weather[0].main; 
     let description = data.current.weather[0].description;
+    description = titleCase(description);  
     let temp = Math.round(data.current.temp);
     let pressure = data.current.pressure;
     let humidity = data.current.humidity; 
@@ -20,7 +21,6 @@ fetch(file)
     document.getElementById('today').innerHTML = description;
     console.log(data);
     document.getElementById('weather').innerHTML = temp;
-    console.log(typeof description)
 
 
     // Weather hourly data 
@@ -37,12 +37,14 @@ fetch(file)
     let tomorrowMain = data.daily[0].weather[0].main; 
     let dayAfterTomorrowMain = data.daily[1].weather[0].main; 
 
-
-
-
-
-
      console.log(temp); 
 
-
+     function titleCase(str) {
+        str = str.toLowerCase().split(' ');
+        for (var i = 0; i < str.length; i++) {
+          str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+        }
+        return str.join(' ');
+      }
+      titleCase("I'm a little tea pot");
 })

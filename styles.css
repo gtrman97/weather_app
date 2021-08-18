@@ -68,6 +68,7 @@ body {
     position: relative;
     display: inline;
     padding: 2.5%;
+    text-transform: capitalize;
 }
 span {
     font-size: 100%;
