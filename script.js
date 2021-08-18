@@ -13,7 +13,7 @@ fetch(file)
     // Weather main data
     let main = data.current.weather[0].main; 
     let description = data.current.weather[0].description;
-    description = titleCase(description);  
+    description = titleCase(description); 
     let temp = Math.round(data.current.temp);
     let pressure = data.current.pressure;
     let humidity = data.current.humidity; 
