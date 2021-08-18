@@ -93,7 +93,7 @@ body {
     display: flex; 
 }
 #today {
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 175%;
     text-shadow: 1px 1px white;
     position: relative;
@@ -123,7 +123,7 @@ body {
 .weekday {
     text-align: center;
     padding: 10%; 
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 200%;
     text-shadow: 1px 1px white;
     max-height: 5%;
