@@ -100,6 +100,12 @@ body {
     animation-name: moveRight;
     animation-duration: 3.5s;
 }
+p {
+    display: inline;
+}
+span {
+    display: inline;
+}
 #main {
     min-height: 50%; 
     min-width: 95%; 
