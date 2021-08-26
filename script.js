@@ -22,8 +22,8 @@ fetch(file)
     console.log(data);
     console.log(data.daily[0].temp.max);
     document.getElementById('weather').innerHTML = temp + ' °F';
-    document.getElementById('high').innerHTML = data.daily[0].temp.max;
-    document.getElementById('low').innerHTML = data.daily[0].temp.min;
+    document.getElementById('high').innerHTML = Math.round(data.daily[0].temp.max);
+    document.getElementById('low').innerHTML = Math.round(data.daily[0].temp.min);
 
 
 
