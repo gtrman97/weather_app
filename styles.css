@@ -68,9 +68,6 @@ body {
     position: relative;
     padding: 2.5%;
 }
-.daily {
-    display: block;
-}
 #link {
     min-width: 45%; 
     margin: 1rem;
