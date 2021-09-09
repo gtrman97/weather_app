@@ -68,6 +68,19 @@ body {
     position: relative;
     padding: 2.5%;
 }
+.high-temps {
+    
+    position: relative;
+    animation-name: moveRight;
+    animation-duration: 3s;
+}
+.low-temps {
+
+    position: relative;
+    animation-name: moveLeft;
+    animation-duration: 3s;
+
+}
 #link {
     min-width: 45%; 
     margin: 1rem;
