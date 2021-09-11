@@ -69,13 +69,13 @@ body {
     padding: 2.5%;
 }
 .high-temps {
-    
+    color: red;
     position: relative;
     animation-name: moveRight;
     animation-duration: 3s;
 }
 .low-temps {
-
+    color: blue; 
     position: relative;
     animation-name: moveLeft;
     animation-duration: 3s;
