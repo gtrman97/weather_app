@@ -154,7 +154,6 @@ span {
     font-size: 200%;
     text-shadow: 1px 1px white;
     max-height: 5%;
-    max-width: 35%;
     /* border: solid 2px black; */
     margin: 0.25rem;
 }
@@ -220,7 +219,6 @@ span {
     }
     .weekday {
         max-height: 1%;
-        max-width: 5%;
 
     }
     .temp {
