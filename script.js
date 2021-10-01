@@ -11,6 +11,7 @@ fetch(file)
 .then((data) => {
 
     // Weather main data
+    //comment 
     let main = data.current.weather[0].main; 
     let description = data.current.weather[0].description;
     description = titleCase(description); 
