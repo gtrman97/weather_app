@@ -58,6 +58,7 @@ body {
     border: 2px solid white; 
     border-radius: 15px;
     background-color: white;
+    box-shadow: 2.5px 5px deepskyblue;
     min-height: 7.5vh;  
     min-width: 50%;
     margin: 0.5rem; 
@@ -90,6 +91,7 @@ body {
 
 }
 #link {
+    text-shadow: 1px 1px white;
     min-width: 45%; 
     margin: 1rem;
     min-height: 25%;
@@ -112,6 +114,9 @@ body {
 }
 #head {
     display: flex; 
+}
+#today-header {
+    text-shadow: 1px 1px white;
 }
 #today {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
