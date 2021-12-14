@@ -143,7 +143,7 @@ span {
     border: 5px solid lightblue; 
     background-color: lightblue;
     border-radius: 15px;
-    box-shadow: 5px 10px deepskyblue;
+    box-shadow: 5px 10px aquamarine;
     max-height: 1%; 
     min-width: 90%;
     margin: 0.5rem;
@@ -172,7 +172,6 @@ span {
     border-radius: 15px;
     max-height: 5%; 
     min-width: 18%;   
-    /* border: solid 2px black; */
 }
 .day1, .day3, .day5 {
 
