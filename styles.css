@@ -156,7 +156,7 @@ span {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 200%;
     text-shadow: 1px 1px white;
-    /* max-height: 5%; */
+    max-height: 1%;
     /* border: solid 2px black; */
     margin: 0.25rem;
 }
@@ -168,7 +168,7 @@ span {
     border: 5px solid lightblue; 
     background-color: white;
     border-radius: 15px;
-    max-height: 5%; 
+    max-height: 1%; 
     min-width: 18%;   
 }
 .day1, .day3, .day5 {
