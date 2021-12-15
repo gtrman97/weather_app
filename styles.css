@@ -202,7 +202,11 @@ span {
 }
 @media only screen and (min-width: 667px) {
     * {
-        border: solid 2px yellow; 
+        /* border: solid 2px yellow;  */
+    }
+    body {
+        border: solid 2px blue;
+        height: 100vh;
     }
     #current-location {
         color: blue;
