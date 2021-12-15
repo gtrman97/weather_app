@@ -15,9 +15,9 @@ html {
     height: 42.5vh;
 }
 body {
-    /* background-image: linear-gradient(to left, skyblue, gold); */
-    background-image: url("sunny.jpg"); 
-    background-size: contain;
+    background-image: linear-gradient(to right, skyblue, white);
+    /* background-image: url("sunny.jpg");  */
+    /* background-size: contain; */
     height: 100vh;
 }
 #current-location {
