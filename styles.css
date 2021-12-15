@@ -219,16 +219,17 @@ span {
         flex-grow: 2;
     }
     #current-weather {
-        min-width: 100%;
-        margin: 0;
-        flex-grow: 0;
-        border: 2px solid green;
+        min-width: 90%;
+        margin: 1%;
+        flex-grow: 3;
+        /* border: 2px solid green; */
 
     }
     #location {
         min-width: 100%;
-        border: solid 2px red;
+        /* border: solid 2px red; */
         flex-grow: 2;
+        min-height: 35%;
     }
     body {
         display: flex;
@@ -245,12 +246,13 @@ span {
         min-width: 60%;
     }
     #link {
-        border: solid 2px blue;
-        flex-grow: 2;
+        /* border: solid 2px blue; */
+        max-height: 25%;
+        flex-grow: 1;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 5%;
+        padding: 15%;
     }
 }
 @media only screen and (min-width: 1024px) {
