@@ -98,11 +98,12 @@ body {
     min-width: 45%; 
     min-height: 25%;
     text-align: center;
-    font-family: fantasy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
     position: relative;
     animation-name: moveDown;
     animation-duration: 3.5s;
+    /* border: solid 2x purple;  */
 }
 #location {
     max-width: 50%; 
@@ -198,6 +199,46 @@ span {
     /* animation-name: moveLeft;
     animation-duration: 3s; */
     
+}
+@media only screen and (min-width: 667px) {
+    * {
+        border: solid 2px yellow; 
+    }
+    #current-location {
+        color: blue;
+        min-width: 85%;
+    }
+    #info {
+        min-width: 100%;
+        border: 2px solid red;
+        flex-grow: 2;
+    }
+    #current-weather {
+        min-width: 100%;
+        margin: 0;
+    }
+    #location {
+        min-width: 100%;
+        border: solid 2px blue;
+        flex-grow: 1;
+    }
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+    #head {
+        /* border: solid 2px blue; */
+        min-width: 40%;
+        flex-direction: column;
+        height: 100vh;
+        /* justify-content: center; */
+    }
+    #main {
+        min-width: 60%;
+    }
+    #link {
+        flex-grow: 1;
+    }
 }
 @media only screen and (min-width: 1024px) {
     #location {
