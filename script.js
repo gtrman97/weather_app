@@ -19,8 +19,8 @@ fetch(file)
     let humidity = data.current.humidity; 
 
     document.getElementById('today').innerHTML = description;
-    console.log(data);
-    console.log(data.daily[0].temp.max);
+    // console.log(data);
+    // console.log(data.daily[0].temp.max);
     document.getElementById('weather').innerHTML = temp + ' °F';
     document.getElementById('high').innerHTML = Math.round(data.daily[0].temp.max) + ' °F';
     document.getElementById('low').innerHTML = Math.round(data.daily[0].temp.min) + ' °F';
@@ -41,7 +41,11 @@ fetch(file)
     let tomorrowMain = data.daily[0].weather[0].main; 
     let dayAfterTomorrowMain = data.daily[1].weather[0].main; 
 
-     console.log(temp); 
+    document.getElementsByClassName('temp1').innerHTML = 'X';
+
+
+     console.log(document.getElementsByClassName('temp1')); 
+     console.log(tomorrowTemp);
 
      function titleCase(str) {
         str = str.toLowerCase().split(' ');

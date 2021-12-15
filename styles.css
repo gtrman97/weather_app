@@ -12,6 +12,7 @@ html {
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    height: 42.5vh;
 }
 body {
     /* background-image: linear-gradient(to left, skyblue, gold); */
