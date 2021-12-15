@@ -215,13 +215,14 @@ span {
     }
     #info {
         min-width: 100%;
-        border: 2px solid green;
         flex-grow: 3;
     }
     #current-weather {
         min-width: 100%;
         margin: 0;
         flex-grow: 3;
+        border: 2px solid green;
+
     }
     #location {
         min-width: 100%;
