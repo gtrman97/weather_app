@@ -206,25 +206,26 @@ span {
         /* border: solid 2px yellow;  */
     }
     body {
-        border: solid 2px blue;
+        /* border: solid 2px blue; */
         height: 100vh;
     }
     #current-location {
-        color: blue;
         min-width: 85%;
+
     }
     #info {
         min-width: 100%;
-        border: 2px solid red;
-        flex-grow: 2;
+        border: 2px solid green;
+        flex-grow: 3;
     }
     #current-weather {
         min-width: 100%;
         margin: 0;
+        flex-grow: 3;
     }
     #location {
         min-width: 100%;
-        border: solid 2px blue;
+        border: solid 2px red;
         flex-grow: 1;
     }
     body {
@@ -242,6 +243,7 @@ span {
         min-width: 60%;
     }
     #link {
+        border: solid 2px blue;
         flex-grow: 1;
     }
 }
