@@ -263,7 +263,6 @@ span {
     }
     .weekday, .temp {
         height: 1px;
-        border: solid 2px red;
     }
 }
 @media only screen and (min-width: 1024px) {
