@@ -243,6 +243,9 @@ span {
     }
     #main {
         min-width: 60%;
+        flex-wrap: wrap;
+        border: solid 2px red;
+        height: 100%;
     }
     #link {
         /* border: solid 2px blue; */
