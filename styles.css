@@ -20,6 +20,7 @@ body {
     /* background-image: url("sunny.jpg");  */
     /* background-size: contain; */
     height: 100vh;
+    width: 100vw;
 }
 #current-location {
     /* border: 5px solid red;  */
@@ -136,8 +137,8 @@ span {
     display: inline;
 }
 #main {
-    height: 55%; 
-    min-width: 95%; 
+    height: 30vh; 
+    /* width: 100vh;  */
     display: flex;
     flex-direction: column;
     /* border: solid 2px black; */
@@ -147,17 +148,17 @@ span {
     background-color: lightblue;
     border-radius: 15px;
     box-shadow: 2.5px 5px aquamarine;
-    min-height: 27%; 
-    min-width: 90%;
+    height: 30%;
     margin: 0.5rem;
     /* border: solid 2px black; */
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
 }
 .weekday {
     text-align: left;
-    padding: 10%; 
+    /* padding: 3.5%;  */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 200%;
     text-shadow: 1px 1px white;
@@ -176,7 +177,7 @@ span {
     border: 5px solid lightblue; 
     background-color: white;
     border-radius: 15px;
-    max-height: 10%; 
+    height: 1px; 
     min-width: 18%;   
     display: flex;
     align-items: center;
@@ -202,9 +203,6 @@ span {
     
 }
 @media only screen and (min-width: 667px) {
-    * {
-        /* border: solid 2px yellow;  */
-    }
     body {
         /* border: solid 2px blue; */
         height: 100vh;
@@ -275,6 +273,7 @@ span {
     #main {
         border: solid 2px red;
         min-width: 50%;
+        height: 100vh;
     }
 
     #location {
@@ -301,7 +300,7 @@ span {
         padding: 5%;
     }
     .day {
-        max-height: 5%;
+        height: 5px;
         max-width: 5%;
     }
     .weekday {
