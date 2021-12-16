@@ -266,20 +266,31 @@ span {
     }
 }
 @media only screen and (min-width: 1024px) {
-    #location {
+    #head {
+        border: solid 2px red;
+        /* width: 50%; */
+        flex-direction: column;
         min-width: 50%;
+    }
+    #main {
+        border: solid 2px red;
+        min-width: 50%;
+    }
+
+    #location {
+        min-width: 95%;
         justify-content: flex-start;
 
     }
     #current-location {
-        min-height: 75vh;
-        min-width: 98%;
+        height: 25vh;
+        min-width: 100%;
     }
     #city {
         font-size: 300%;
     }
     #info {
-        min-width: 50%;
+        min-width: 98%;
     }
     #current-weather {
         min-height: 50%;
