@@ -244,7 +244,7 @@ span {
     #main {
         min-width: 60%;
         flex-wrap: wrap;
-        border: solid 2px red;
+        /* border: solid 2px red; */
         height: 100%;
     }
     #link {
@@ -255,6 +255,12 @@ span {
         padding: 5%;
         margin: 0;
         font-size: 90%;
+    }
+    .day {
+        height: 1%;
+        min-width: 95%;
+        /* border: solid 2px red; */
+
     }
 }
 @media only screen and (min-width: 1024px) {
@@ -292,7 +298,6 @@ span {
     .temp {
         max-height: 1%;
         max-width: 5%;
-
     }
     
 }
