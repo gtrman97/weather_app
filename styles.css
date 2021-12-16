@@ -260,7 +260,10 @@ span {
         height: 1%;
         min-width: 95%;
         /* border: solid 2px red; */
-
+    }
+    .weekday, .temp {
+        height: 1px;
+        border: solid 2px red;
     }
 }
 @media only screen and (min-width: 1024px) {
