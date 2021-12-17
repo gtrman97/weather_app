@@ -137,7 +137,7 @@ span {
     display: inline;
 }
 #main {
-    height: 30vh; 
+    height: 80vh; 
     /* width: 100vh;  */
     display: flex;
     flex-direction: column;
@@ -148,7 +148,7 @@ span {
     background-color: lightblue;
     border-radius: 15px;
     box-shadow: 2.5px 5px aquamarine;
-    height: 30%;
+    height: 10%;
     margin: 0.5rem;
     /* border: solid 2px black; */
     display: flex;
