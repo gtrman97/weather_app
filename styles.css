@@ -255,12 +255,13 @@ span {
         font-size: 90%;
     }
     .day {
-        height: 1%;
+        height: 12%;
         min-width: 95%;
         /* border: solid 2px red; */
     }
-    .weekday, .temp {
-        height: 1px;
+    .temp {
+        height: 5%;
+        padding: 4.5%;
     }
 }
 @media only screen and (min-width: 1024px) {
