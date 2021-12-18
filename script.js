@@ -9,6 +9,9 @@ const days = {
  } 
 
  let date = new Date();
+ let day = date.getDay();
+
+ document.getElementsByClassName("weekday1").innerText = days[day];
 
 // Separate API key
 let queryUrl = "https://api.openweathermap.org/data/2.5/onecall?"; 
