@@ -11,7 +11,8 @@ const days = {
  let date = new Date();
  let day = date.getDay();
 
- document.getElementsByClassName("weekday1").innerText = days[day];
+ document.getElementsByClassName("weekday1").innerHTML = days[(day+1)%7].toString();
+ console.log(days[(day+1)%7].toString());
 
 // Separate API key
 let queryUrl = "https://api.openweathermap.org/data/2.5/onecall?"; 
