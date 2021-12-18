@@ -1,3 +1,13 @@
+let days = {
+  0: "sunday",
+  1: "monday",
+  2: "tuesday", 
+  3: "wednesday",
+  4: "thursday",
+  5: "friday", 
+  6: "saturday"
+ } 
+
 // Separate API key
 let queryUrl = "https://api.openweathermap.org/data/2.5/onecall?"; 
 let lat = "lat=30.266666&"; 
