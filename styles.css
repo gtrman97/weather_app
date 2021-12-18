@@ -160,6 +160,9 @@ img {
     padding-top: 12.5%;
     height: 200px;
 }
+.sun {
+    height: 150px;
+}
 .weekday {
     text-align: left;
     /* padding: 3.5%;  */
@@ -272,6 +275,10 @@ img {
     img {
         height: 190px;
         padding-top: 12%;
+    }
+    .sun {
+        height: 115px;
+        padding-top: 9.5%;
     }
 }
 @media only screen and (min-width: 1024px) {
