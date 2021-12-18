@@ -158,6 +158,7 @@ span {
 }
 img {
     padding-top: 12.5%;
+    height: 200px;
 }
 .weekday {
     text-align: left;
