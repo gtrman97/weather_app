@@ -1,4 +1,4 @@
-let days = {
+const days = {
   0: "sunday",
   1: "monday",
   2: "tuesday", 
@@ -7,6 +7,8 @@ let days = {
   5: "friday", 
   6: "saturday"
  } 
+
+ let date = new Date();
 
 // Separate API key
 let queryUrl = "https://api.openweathermap.org/data/2.5/onecall?"; 
