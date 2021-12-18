@@ -14,7 +14,8 @@ html {
     height: 47.5%;
 }
 body {
-    background-image: linear-gradient(to left, skyblue, white);
+    /* background-image: linear-gradient(to bottom, skyblue, white); */
+    background: skyblue;
     /* background-image: url("sunny.jpg");  */
     /* background-size: contain; */
     height: 100vh;
@@ -134,7 +135,6 @@ span {
 }
 #main {
     height: 90vh; 
-    /* width: 100vh;  */
     display: flex;
     flex-direction: column;
 }
