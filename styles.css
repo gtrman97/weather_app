@@ -161,6 +161,7 @@ img {
     text-align: left;
     /* padding: 3.5%;  */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
     font-size: 175%;
     text-shadow: 1px 1px white;
     max-height: 10%;
