@@ -280,15 +280,27 @@ img {
         height: 115px;
     }
 }
+@media only screen and (min-width: 1080px) {
+    #main {
+        height: 100%;
+    }
+    .day {
+        height: 100%;
+    }
+    .weekday {
+        height: 100%;
+    }
+
+
+
+}
 @media only screen and (min-width: 1024px) {
     #head {
-        border: solid 2px red;
         /* width: 50%; */
         flex-direction: column;
         min-width: 50%;
     }
     #main {
-        border: solid 2px red;
         min-width: 50%;
         height: 100vh;
     }
