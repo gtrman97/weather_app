@@ -159,7 +159,6 @@ img {
 }
 .weekday {
     text-align: left;
-    /* padding: 3.5%;  */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: capitalize;
     font-size: 175%;
@@ -199,8 +198,6 @@ img {
 .weekday1, .temp1, .weekday3, .temp3, .weekday5, .temp5 {
     
     position: relative;
-    /* animation-name: moveLeft;
-    animation-duration: 3s; */
     
 }
 @media only screen and (min-width: 667px) {
@@ -234,7 +231,6 @@ img {
         min-width: 40%;
         flex-direction: column;
         height: 100%;
-        /* justify-content: center; */
     }
     #main {
         min-width: 60%;
@@ -269,7 +265,6 @@ img {
 }
 @media only screen and (min-width: 1080px) {
     #head {
-        /* width: 50%; */
         flex-direction: column;
         min-width: 50%;
     }
