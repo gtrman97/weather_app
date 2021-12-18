@@ -1,0 +1,353 @@
+$color-1: lightblue; 
+$color-2: aquamarine; 
+$color-3: white; 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    overflow-x: hidden;
+}
+#head {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    height: 47.5%;
+}
+body {
+    /* background-image: linear-gradient(to bottom, skyblue, white); */
+    background: skyblue;
+    /* background-image: url("sunny.jpg");  */
+    /* background-size: contain; */
+    height: 100vh;
+    width: 100vw;
+}
+#current-location {
+    border-radius: 15px;
+    box-shadow: 5px 10px orangered;
+    min-height: 25%; 
+    min-width: 45%; 
+    margin: 1rem;
+    background-image: linear-gradient(to bottom, red, gold);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    animation-name: moveUp; 
+    animation-duration: 3s;
+}
+#city {
+    text-align: center;
+    font-size: 165%;
+    text-shadow: 1px 1px $color-3;
+    margin: auto;
+    min-width: 25%;
+    min-height: 10%; 
+
+}
+#current-weather {
+    border: 5px solid $color-1; 
+    border-radius: 15px;
+    box-shadow: 5px 10px $color-2;
+    background: $color-1;
+    min-height: 45%; 
+    min-width: 45%; 
+    margin: 1rem;
+    text-align: center;
+    position: relative;
+    animation-name: moveDown;
+    animation-duration: 3s;
+}
+#current-temp {
+    border: 2px solid $color-3; 
+    border-radius: 15px;
+    background-color: $color-3;
+    box-shadow: 2.5px 5px deepskyblue;
+    min-height: 7.5vh;  
+    min-width: 50%;
+    margin: 0.5rem; 
+    position: relative;
+    animation-name: moveLeft;
+    animation-duration: 3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#weather {
+    font-size: 100%;
+    font-size: x-large;
+    position: relative;
+    padding: 2.5%;
+}
+.high-temps {
+    color: red;
+    text-shadow: 1px 1px $color-3;
+    position: relative;
+    animation-name: moveRight;
+    animation-duration: 3s;
+}
+.low-temps {
+    color: blue; 
+    text-shadow: 1px 1px $color-3;
+    position: relative;
+    animation-name: moveLeft;
+    animation-duration: 3s;
+
+}
+#link {
+    text-shadow: 1px 1px $color-3;
+    min-width: 45%; 
+    min-height: 25%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    position: relative;
+    animation-name: moveDown;
+    animation-duration: 3.5s;
+}
+#location {
+    max-width: 50%; 
+    display: flex;
+    align-items: stretch;
+}
+#info {
+    max-width: 50%; 
+    overflow: hidden;
+}
+#head {
+    display: flex; 
+}
+#today-header {
+    text-shadow: 1px 1px $color-3;
+}
+#today {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 175%;
+    text-shadow: 1px 1px $color-3;
+    position: relative;
+    animation-name: moveRight;
+    animation-duration: 3s;
+}
+p {
+    display: inline;
+}
+span {
+    display: inline;
+}
+#main {
+    height: 90vh; 
+    display: flex;
+    flex-direction: column;
+}
+.day {
+    border: 5px solid $color-1; 
+    background-color: $color-1;
+    border-radius: 15px;
+    box-shadow: 2.5px 5px $color-2;
+    height: 10%;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+img {
+    padding-top: 12.5%;
+    height: 200px;
+}
+.sun {
+    height: 150px;
+}
+.weekday {
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    font-size: 175%;
+    text-shadow: 1px 1px $color-3;
+    max-height: 10%;
+    margin: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.temp {
+    text-align: center;
+    font-size: 95%;
+    margin: 0; 
+    padding: 6%; 
+    border: 5px solid $color-1; 
+    background-color: $color-3;
+    border-radius: 15px;
+    height: 1px; 
+    width: 25%;   
+    display: flex;
+    align-items: center;
+}
+.day1, .day3, .day5 {
+
+    position: relative;
+    animation-name: moveRight;
+    animation-duration: 3s;
+}
+.day2, .day4, .day6 {
+    
+    position: relative;
+    animation-name: moveLeft;
+    animation-duration: 3s;
+
+}
+.weekday1, .temp1, .weekday3, .temp3, .weekday5, .temp5 {
+    
+    position: relative;
+    
+}
+@media only screen and (min-width: 667px) {
+    body {
+        height: 100vh;
+    }
+    #current-location {
+        min-width: 85%;
+    }
+    #info {
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 2;
+    }
+    #current-weather {
+        min-width: 90%;
+        margin: 3%;
+        flex-grow: 1;
+    }
+    #location {
+        min-width: 100%;
+        flex-grow: 2;
+        min-height: 35%;
+    }
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+    #head {
+        min-width: 40%;
+        flex-direction: column;
+        height: 100%;
+    }
+    #main {
+        min-width: 60%;
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+    #link {
+        max-height: 25%;
+        flex-grow: 1;
+        display: block;
+        padding: 5%;
+        margin: 0;
+        font-size: 90%;
+    }
+    .day {
+        height: 12%;
+        min-width: 95%;
+    }
+    .temp {
+        height: 5%;
+        width: 22.5%;
+        padding: 4.5%;
+        text-align: center;
+    }
+    img {
+        height: 150px;
+        padding-top: 9.5%;
+    }
+    .sun {
+        height: 115px;
+    }
+}
+@media only screen and (min-width: 1080px) {
+    #head {
+        flex-direction: column;
+        min-width: 50%;
+    }
+    #main {
+        min-width: 50%;
+        height: 100vh;
+    }
+
+    #location {
+        min-width: 95%;
+        justify-content: flex-start;
+
+    }
+    #current-location {
+        height: 25vh;
+        min-width: 100%;
+    }
+    #city {
+        font-size: 300%;
+    }
+    #info {
+        min-width: 98%;
+    }
+    #current-weather {
+        min-height: 50%;
+    }
+    #link {
+        font-size: 350%;
+        min-height: 50%;
+        padding: 5%;
+    }
+    .day {
+        height: 100px;
+        max-width: 5%;
+    }
+    .weekday {
+        height: 50%;
+
+    }
+    .temp {
+        height: 10%;
+        width: 23%;
+        padding: 7%;
+    }
+    img {
+        padding-top: 6%;
+        margin: 7%;
+    }
+    
+}
+@keyframes moveUp {
+    0% {
+        top: 500px; 
+    }
+    100% {
+        top: 0px; 
+    }
+}
+@keyframes moveLeft {
+    0% {
+        left: 500px; 
+    }
+    100% {
+        left: 0px; 
+    }
+}
+@keyframes moveRight {
+    0% {
+        right: 500px; 
+    }
+    100% {
+        right: 0px; 
+    }
+}
+@keyframes moveDown {
+    0% {
+        bottom: 500px; 
+    }
+    100% {
+        bottom: 0px; 
+    }
+}
