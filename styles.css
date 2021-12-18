@@ -257,14 +257,11 @@ img {
   #head {
     flex-direction: column;
     min-width: 50%; 
-    height: 100vh;
-    border: solid 2px tomato;
   }
 
   #main {
     min-width: 50%;
     height: 100vh; 
-    /* border: solid 2px tomato; */
     flex-wrap: nowrap;
   }
 
@@ -282,9 +279,7 @@ img {
     font-size: 300%; }
 
   #info {
-    height: 100vh;
     min-width: 100%; 
-    border: solid 2px tomato;
   
   }
 
@@ -295,9 +290,10 @@ img {
   }
 
   #link {
-    font-size: 350%;
+    font-size: 250%;
     min-height: 40%;
-    padding: 5%; }
+    padding: 5%; 
+  }
 
   .day {
     height: 110px;
@@ -317,6 +313,9 @@ img {
     margin: 7%; } 
   .sun {
     height: 150px;
+  }
+  .high-temps, .low-temps {
+    font-size: 250%;
   }
   
   }
