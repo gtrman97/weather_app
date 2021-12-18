@@ -269,6 +269,10 @@ img {
         padding: 4.5%;
         text-align: center;
     }
+    img {
+        height: 190px;
+        padding-top: 12%;
+    }
 }
 @media only screen and (min-width: 1024px) {
     #head {
