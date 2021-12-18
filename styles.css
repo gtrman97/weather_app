@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: solid 2px yellow; */
   }
 
 html {
@@ -13,7 +12,6 @@ html {
     display: flex;
     justify-content: space-between;
     height: 47.5%;
-    /* border: solid 2px blue; */
 }
 body {
     background-image: linear-gradient(to left, skyblue, white);
@@ -23,7 +21,6 @@ body {
     width: 100vw;
 }
 #current-location {
-    /* border: 5px solid red;  */
     border-radius: 15px;
     box-shadow: 5px 10px orangered;
     min-height: 25%; 
@@ -105,7 +102,6 @@ body {
     position: relative;
     animation-name: moveDown;
     animation-duration: 3.5s;
-    /* border: solid 2x purple;  */
 }
 #location {
     max-width: 50%; 
@@ -141,7 +137,6 @@ span {
     /* width: 100vh;  */
     display: flex;
     flex-direction: column;
-    /* border: solid 2px black; */
 }
 .day {
     border: 5px solid lightblue; 
@@ -150,7 +145,6 @@ span {
     box-shadow: 2.5px 5px aquamarine;
     height: 10%;
     margin: 0.5rem;
-    /* border: solid 2px black; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -170,7 +164,6 @@ img {
     font-size: 175%;
     text-shadow: 1px 1px white;
     max-height: 10%;
-    /* border: solid 2px black; */
     margin: 2.5%;
     display: flex;
     align-items: center;
@@ -211,7 +204,6 @@ img {
 }
 @media only screen and (min-width: 667px) {
     body {
-        /* border: solid 2px blue; */
         height: 100vh;
     }
     #current-location {
@@ -227,11 +219,9 @@ img {
         min-width: 90%;
         margin: 3%;
         flex-grow: 1;
-        /* border: 2px solid green; */
     }
     #location {
         min-width: 100%;
-        /* border: solid 2px red; */
         flex-grow: 2;
         min-height: 35%;
     }
@@ -240,7 +230,6 @@ img {
         flex-direction: row;
     }
     #head {
-        /* border: solid 2px blue; */
         min-width: 40%;
         flex-direction: column;
         height: 100%;
@@ -249,11 +238,9 @@ img {
     #main {
         min-width: 60%;
         flex-wrap: wrap;
-        /* border: solid 2px red; */
         height: 100vh;
     }
     #link {
-        /* border: solid 2px blue; */
         max-height: 25%;
         flex-grow: 1;
         display: block;
@@ -264,7 +251,6 @@ img {
     .day {
         height: 12%;
         min-width: 95%;
-        /* border: solid 2px red; */
     }
     .temp {
         height: 5%;
@@ -281,20 +267,6 @@ img {
     }
 }
 @media only screen and (min-width: 1080px) {
-    #main {
-        height: 100%;
-    }
-    .day {
-        height: 100%;
-    }
-    .weekday {
-        height: 100%;
-    }
-
-
-
-}
-@media only screen and (min-width: 1024px) {
     #head {
         /* width: 50%; */
         flex-direction: column;
@@ -329,16 +301,21 @@ img {
         padding: 5%;
     }
     .day {
-        height: 5px;
+        height: 100px;
         max-width: 5%;
     }
     .weekday {
-        max-height: 1%;
+        height: 50%;
 
     }
     .temp {
-        max-height: 1%;
-        max-width: 5%;
+        height: 10%;
+        width: 23%;
+        padding: 7%;
+    }
+    img {
+        padding-top: 6%;
+        margin: 7%;
     }
     
 }
