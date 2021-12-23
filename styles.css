@@ -166,6 +166,11 @@ img {
   align-items: center;
   justify-content: center; }
 
+  .dayName {
+    min-width: 55px;
+    max-width: 100px;
+  }
+
 .temp {
   text-align: center;
   font-size: 95%;
