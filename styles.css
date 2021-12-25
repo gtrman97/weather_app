@@ -156,8 +156,9 @@ img {
 .sun {
   height: 150px; }
 .icon {
-    /* border: solid 2px black; */
     flex-grow: 2;
+    border: solid 2px black;
+    /* max-width: 20%; */
   }
 
 .weekday {
@@ -166,7 +167,6 @@ img {
   text-transform: capitalize;
   font-size: 175%;
   text-shadow: 1px 1px white;
-  max-height: 10%;
   margin: 2.5%;
   display: flex;
   align-items: center;
