@@ -145,7 +145,9 @@ span {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between; 
+
+}
 
 img {
   padding-top: 12.5%;
@@ -153,6 +155,10 @@ img {
 
 .sun {
   height: 150px; }
+.icon {
+    /* border: solid 2px black; */
+    flex-grow: 2;
+  }
 
 .weekday {
   text-align: left;
@@ -164,12 +170,8 @@ img {
   margin: 2.5%;
   display: flex;
   align-items: center;
-  justify-content: center; }
-
-  .dayName {
-    min-width: 55px;
-    max-width: 100px;
-  }
+  justify-content: center; 
+}
 
 .temp {
   text-align: center;
