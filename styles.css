@@ -142,6 +142,8 @@ span {
   box-shadow: 2.5px 5px aquamarine;
   height: 10%;
   margin: 0.5rem;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -155,11 +157,6 @@ img {
 
 .sun {
   height: 150px; }
-.icon {
-    flex-grow: 2;
-    border: solid 2px black;
-    /* max-width: 20%; */
-  }
 
 .weekday {
   text-align: left;
