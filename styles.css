@@ -152,11 +152,18 @@ span {
 }
 
 img {
-  padding-top: 12.5%;
-  height: 200px; }
+  /* padding-top: 2.5%; */
+  height: 150px; 
+  /* border: solid 2px black; */
+}
 
 .sun {
-  height: 150px; }
+  height: 100px; }
+
+  .dayName {
+    min-width: 55px;
+    max-width: 100px;
+  }
 
 .weekday {
   text-align: left;
@@ -252,11 +259,10 @@ img {
     text-align: center; }
 
   img {
-    height: 150px;
-    padding-top: 9.5%; }
+    height: 115px;}
 
   .sun {
-    height: 115px; } }
+    height: 85px; } }
 @media only screen and (min-width: 1080px) {
   #head {
     flex-direction: column;
@@ -313,7 +319,6 @@ img {
   }
   img {
     height: 200px;
-    padding-top: 6%;
     margin: 7%; } 
   .sun {
     height: 150px;

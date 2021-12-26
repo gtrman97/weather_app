@@ -38,26 +38,30 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <ellipse
-       style="fill:#b3b3b3;stroke:#a77324;stroke-width:0"
-       id="path868"
-       cx="115.7112"
-       cy="102.16798"
-       rx="30.6504"
-       ry="26.6112" />
-    <ellipse
-       style="fill:#b3b3b3;stroke:#a77324;stroke-width:0"
-       id="path870"
-       cx="135.6696"
-       cy="108.82079"
-       rx="24.472799"
-       ry="20.433599" />
-    <ellipse
-       style="fill:#b3b3b3;stroke:#a77324;stroke-width:0"
-       id="path872"
-       cx="102.6432"
-       cy="115.236"
-       rx="29.937601"
-       ry="16.8696" />
+    <g
+       id="g827"
+       transform="translate(-11.424002,44.668812)">
+      <ellipse
+         style="fill:#b3b3b3;stroke:#a77324;stroke-width:0"
+         id="path868"
+         cx="115.7112"
+         cy="102.16798"
+         rx="30.6504"
+         ry="26.6112" />
+      <ellipse
+         style="fill:#b3b3b3;stroke:#a77324;stroke-width:0"
+         id="path870"
+         cx="135.6696"
+         cy="108.82079"
+         rx="24.472799"
+         ry="20.433599" />
+      <ellipse
+         style="fill:#b3b3b3;stroke:#a77324;stroke-width:0"
+         id="path872"
+         cx="102.6432"
+         cy="115.236"
+         rx="29.937601"
+         ry="16.8696" />
+    </g>
   </g>
 </svg>
