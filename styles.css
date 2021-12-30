@@ -159,11 +159,6 @@ img {
 .sun {
   height: 100px; }
 
-  .dayName {
-    min-width: 55px;
-    max-width: 100px;
-  }
-
 .weekday {
   text-align: left;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
