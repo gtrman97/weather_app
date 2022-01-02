@@ -223,6 +223,10 @@ img {
     margin: 3%;
     flex-grow: 1; }
 
+  #today, .high-temps {
+    margin: 0;
+  }
+
   #location {
     min-width: 100%;
     flex-grow: 2;
