@@ -62,7 +62,7 @@ body {
   box-shadow: 2.5px 5px deepskyblue;
   min-height: 7.5vh;
   min-width: 50%;
-  margin: 1rem 0.5rem;
+  margin: 0.5rem;
   position: relative;
   animation-name: moveLeft;
   animation-duration: 3s;
@@ -80,6 +80,7 @@ body {
   color: red;
   text-shadow: 1px 1px white;
   font-size: 125%;
+  margin-top: 1.25rem;
   position: relative;
   animation-name: moveRight;
   animation-duration: 3s; }
@@ -218,6 +219,7 @@ img {
 
   #current-weather {
     min-width: 90%;
+    min-height: 25%;
     margin: 3%;
     flex-grow: 1; }
 
