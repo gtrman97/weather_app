@@ -269,6 +269,24 @@ img {
 
   .sun {
     height: 85px; } }
+    @media only screen and (min-width: 810px) {
+      #current-location {
+        height: 80%;
+      }
+      #location {
+        /* border: solid 2px green; */
+        min-height: 1.5%;
+        flex-grow: 0.5;
+      }
+      #current-weather {
+        min-width: 90%;
+        /* min-height: 25%; */
+        margin: 3%;
+        flex-grow: 0; }
+    }
+    #current-temp {
+      height: 5px;
+    }
 @media only screen and (min-width: 1080px) {
   #head {
     flex-direction: column;
