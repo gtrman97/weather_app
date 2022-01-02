@@ -11,14 +11,11 @@ const days = {
  let date = new Date();
  let day = date.getDay();
  let weekDays = document.querySelectorAll(".weekday"); 
-
 //  document.querySelector(".weekday1").innerHTML = days[(day+1)%7].toString();
- console.log(weekDays[0]);
- for(let i=0; i<Object.keys(days).length; i++) {
+ for(let i=0; i<weekDays.length; i++) {
    weekDays[i].innerHTML = days[(day+i+1)%7].toString().slice(0, 3); 
  }
-
-// // Separate API key
+// Separate API key
 let queryUrl = "https://api.openweathermap.org/data/2.5/onecall?"; 
 let lat = "lat=30.266666&"; 
 let lon = "lon=-97.733330&"; 
@@ -30,16 +27,15 @@ fetch(file)
 .then((response) => response.json()) 
 .then((data) => {
 
-//     // Weather main data
+    // Weather main data
     let main = data.current.weather[0].main; 
     let description = data.current.weather[0].description;
-    description = titleCase(description); 
     let temp = Math.round(data.current.temp);
     let pressure = data.current.pressure;
     let humidity = data.current.humidity; 
 
     document.getElementById('today').innerHTML = description;
-    // console.log(data);
+    console.log(data.current.weather[0].description);
     // console.log(data.daily[0].temp.max);
     document.getElementById('weather').innerHTML = temp + ' °F';
     document.getElementById('high').innerHTML = Math.round(data.daily[0].temp.max) + ' °F';
@@ -47,7 +43,7 @@ fetch(file)
 
 
 
-//     // Weather hourly data 
+    // Weather hourly data 
     let hourNow = data.hourly[0].temp;
     let hour1 = data.hourly[1].tmep; 
     let hour2 = data.hourly[2].tmep; 
@@ -64,6 +60,6 @@ fetch(file)
     document.getElementsByClassName('temp1').innerHTML = 'X';
 
 
-     console.log(document.getElementsByClassName('temp1')); 
-     console.log(tomorrowTemp);
+    //  console.log(document.getElementsByClassName('temp1')); 
+    //  console.log(tomorrowTemp);
 });
