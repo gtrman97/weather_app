@@ -47,7 +47,7 @@ body {
   border-radius: 15px;
   box-shadow: 5px 10px aquamarine;
   background: lightblue;
-  min-height: 45%;
+  min-height: 65%;
   min-width: 45%;
   margin: 1rem;
   text-align: center;
@@ -62,7 +62,7 @@ body {
   box-shadow: 2.5px 5px deepskyblue;
   min-height: 7.5vh;
   min-width: 50%;
-  margin: 0.5rem;
+  margin: 1rem 0.5rem;
   position: relative;
   animation-name: moveLeft;
   animation-duration: 3s;
@@ -79,6 +79,7 @@ body {
 .high-temps {
   color: red;
   text-shadow: 1px 1px white;
+  font-size: 150%;
   position: relative;
   animation-name: moveRight;
   animation-duration: 3s; }
@@ -86,6 +87,7 @@ body {
 .low-temps {
   color: blue;
   text-shadow: 1px 1px white;
+  font-size: 150%;
   position: relative;
   animation-name: moveLeft;
   animation-duration: 3s; }
