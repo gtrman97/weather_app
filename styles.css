@@ -79,7 +79,7 @@ body {
 .high-temps {
   color: red;
   text-shadow: 1px 1px white;
-  font-size: 150%;
+  font-size: 125%;
   position: relative;
   animation-name: moveRight;
   animation-duration: 3s; }
@@ -87,7 +87,7 @@ body {
 .low-temps {
   color: blue;
   text-shadow: 1px 1px white;
-  font-size: 150%;
+  font-size: 125%;
   position: relative;
   animation-name: moveLeft;
   animation-duration: 3s; }
