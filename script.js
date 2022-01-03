@@ -11,7 +11,6 @@ const days = {
  let date = new Date();
  let day = date.getDay();
  let weekDays = document.querySelectorAll(".weekday"); 
-//  document.querySelector(".weekday1").innerHTML = days[(day+1)%7].toString();
  for(let i=0; i<weekDays.length; i++) {
    weekDays[i].innerHTML = days[(day+i+1)%7].toString().slice(0, 3); 
  }
@@ -36,7 +35,6 @@ fetch(file)
 
     document.getElementById('today').innerHTML = description;
     console.log(data.current.weather[0].description);
-    // console.log(data.daily[0].temp.max);
     document.getElementById('weather').innerHTML = temp + ' °F';
     document.getElementById('high').innerHTML = Math.round(data.daily[0].temp.max) + ' °F';
     document.getElementById('low').innerHTML = Math.round(data.daily[0].temp.min) + ' °F';
@@ -59,7 +57,4 @@ fetch(file)
 
     document.getElementsByClassName('temp1').innerHTML = 'X';
 
-
-    //  console.log(document.getElementsByClassName('temp1')); 
-    //  console.log(tomorrowTemp);
 });
