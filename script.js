@@ -34,7 +34,6 @@ fetch(file)
     let humidity = data.current.humidity; 
 
     document.getElementById('today').innerHTML = description;
-    console.log(data.current.weather[0].description);
     document.getElementById('weather').innerHTML = temp + ' °F';
     document.getElementById('high').innerHTML = Math.round(data.daily[0].temp.max) + ' °F';
     document.getElementById('low').innerHTML = Math.round(data.daily[0].temp.min) + ' °F';
