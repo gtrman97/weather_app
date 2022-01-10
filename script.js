@@ -33,6 +33,14 @@ fetch(file)
     let pressure = data.current.pressure;
     let humidity = data.current.humidity; 
 
+    console.log(data.daily[0]);
+    console.log("mon: " + data.daily[1].temp.max);
+    console.log("tue: " + data.daily[2].temp.max);
+    console.log("wed: " + data.daily[3].temp.max);
+    console.log("thu: " + data.daily[4].temp.max);
+    console.log("fri: " + data.daily[5].temp.max);
+    console.log("sat: " + data.daily[6].temp.max);
+
     document.getElementById('today').innerHTML = description;
     document.getElementById('weather').innerHTML = temp + ' °F';
     document.getElementById('high').innerHTML = Math.round(data.daily[0].temp.max) + ' °F';
