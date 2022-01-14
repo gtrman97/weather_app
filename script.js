@@ -33,7 +33,7 @@ fetch(file)
     let pressure = data.current.pressure;
     let humidity = data.current.humidity; 
 
-    console.log(data.daily[0].temp.max);
+    console.log(data.daily[0].temp);
     console.log("mon: " + data.daily[1].temp.max);
     console.log("tue: " + data.daily[2].temp.max);
     console.log("wed: " + data.daily[3].temp.max);
