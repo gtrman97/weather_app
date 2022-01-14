@@ -33,13 +33,22 @@ fetch(file)
     let pressure = data.current.pressure;
     let humidity = data.current.humidity; 
 
-    console.log(data.daily[0]);
+    console.log(data.daily[0].temp.max);
     console.log("mon: " + data.daily[1].temp.max);
     console.log("tue: " + data.daily[2].temp.max);
     console.log("wed: " + data.daily[3].temp.max);
     console.log("thu: " + data.daily[4].temp.max);
     console.log("fri: " + data.daily[5].temp.max);
     console.log("sat: " + data.daily[6].temp.max);
+
+    let maxTemps = document.getElementsByClassName("temp");
+
+    for(let i=1; i<7; i++){
+      maxTemps[i-1].innerHTML = Math.ceil(data.daily[i].temp.max) + ' °F';
+    }
+
+    // document.getElementById("temp1").innerHTML = data.sdaily[1].temp.max;
+    console.log(document.getElementsByClassName("temp1"));
 
     document.getElementById('today').innerHTML = description;
     document.getElementById('weather').innerHTML = temp + ' °F';
