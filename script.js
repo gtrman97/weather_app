@@ -33,18 +33,37 @@ fetch(file)
     let pressure = data.current.pressure;
     let humidity = data.current.humidity; 
 
-    console.log(data.daily[0].temp);
-    console.log("mon: " + data.daily[1].temp.max);
-    console.log("tue: " + data.daily[2].temp.max);
-    console.log("wed: " + data.daily[3].temp.max);
-    console.log("thu: " + data.daily[4].temp.max);
-    console.log("fri: " + data.daily[5].temp.max);
-    console.log("sat: " + data.daily[6].temp.max);
+    // console.log(data.daily[1].temp);
+    console.log(data.daily[1].weather[0].description);
+    console.log(data.daily[2].weather[0].description);
+    console.log(data.daily[3].weather[0].description);
+    console.log(data.daily[4].weather[0].description);
+    console.log(data.daily[5].weather[0].description);
+    console.log(data.daily[6].weather[0].description);
+
+    // console.log(`max: ${data.daily[1].temp.max} min: ${data.daily[1].temp.min}`);
+
+    let icons = document.getElementsByClassName("icon");
+    for(let i=1; i<7; i++){
+      if(data.daily[i].weather[0].description.match('cloud')){
+        icons[i-1].src = 'cloud.svg';
+        icons[i-1].style.height = '150px';
+
+      }
+      else if(data.daily[i].weather[0].description.match('rain')){
+        icons[i-1].src = 'rain.svg';
+        icons[i-1].style.height = '150px';
+      }
+      else {
+        icons[i-1].src = 'sunny.svg';
+        icons[i-1].style.height = '100px';
+        
+      }
+    }
 
     let maxTemps = document.getElementsByClassName("temp");
-
     for(let i=1; i<7; i++){
-      maxTemps[i-1].innerHTML = Math.ceil(data.daily[i].temp.max) + ' °F';
+      maxTemps[i-1].innerHTML = Math.ceil(data.daily[i].temp.day) + ' °F';
     }
 
     // document.getElementById("temp1").innerHTML = data.sdaily[1].temp.max;
