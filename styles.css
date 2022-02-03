@@ -89,6 +89,7 @@ body {
   color: blue;
   text-shadow: 1px 1px white;
   font-size: 125%;
+  margin-bottom: 1rem;
   position: relative;
   animation-name: moveLeft;
   animation-duration: 3s; }
