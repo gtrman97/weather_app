@@ -47,7 +47,7 @@ body {
   border-radius: 15px;
   box-shadow: 5px 10px aquamarine;
   background: lightblue;
-  min-height: 65%;
+  height: 65%;
   min-width: 45%;
   margin: 1rem;
   text-align: center;
