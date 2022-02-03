@@ -126,7 +126,7 @@ body {
   position: relative;
   animation-name: moveRight;
   animation-duration: 3s; 
-  margin-top: 0.5rem;
+  margin-top: 0;
 }
 
 p {
