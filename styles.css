@@ -80,7 +80,7 @@ body {
   color: red;
   text-shadow: 1px 1px white;
   font-size: 125%;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   position: relative;
   animation-name: moveRight;
   animation-duration: 3s; }
@@ -89,7 +89,6 @@ body {
   color: blue;
   text-shadow: 1px 1px white;
   font-size: 125%;
-  margin-bottom: 1rem;
   position: relative;
   animation-name: moveLeft;
   animation-duration: 3s; }
