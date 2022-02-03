@@ -62,7 +62,7 @@ body {
   box-shadow: 2.5px 5px deepskyblue;
   min-height: 7.5vh;
   min-width: 50%;
-  margin: 1.5rem 0.5rem;
+  margin: 1rem 0.5rem;
   position: relative;
   animation-name: moveLeft;
   animation-duration: 3s;
